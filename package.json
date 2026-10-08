@@ -1,0 +1,23 @@
+{
+  "name": "can-arbitration-backend",
+  "version": "1.0.0",
+  "description": "离线经典 CAN 标准/扩展帧逐位仲裁分析 API 与 CLI",
+  "main": "dist/src/server.js",
+  "bin": {
+    "can-arb": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node --no-warnings dist/src/server.js",
+    "test": "node --no-warnings --test dist/tests/*.test.js",
+    "demo": "node --no-warnings dist/src/cli.js demo",
+    "cli": "node --no-warnings dist/src/cli.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.0"
+  }
+}

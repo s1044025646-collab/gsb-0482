@@ -1,0 +1,30 @@
+{
+  "requestId": "demo-0x123",
+  "name": "0x123 标准数据/标准远程/扩展数据",
+  "nodes": [
+    {
+      "name": "STD_DATA",
+      "format": "standard",
+      "id": "0x123",
+      "frameType": "data",
+      "dlc": 0,
+      "data": []
+    },
+    {
+      "name": "STD_REMOTE",
+      "format": "standard",
+      "id": "0x123",
+      "frameType": "remote",
+      "dlc": 2,
+      "data": []
+    },
+    {
+      "name": "EXT_DATA",
+      "format": "extended",
+      "id": "0x048C0000",
+      "frameType": "data",
+      "dlc": 0,
+      "data": []
+    }
+  ]
+}

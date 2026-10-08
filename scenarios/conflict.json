@@ -1,0 +1,22 @@
+{
+  "requestId": "demo-conflict",
+  "name": "相同仲裁位但载荷不同",
+  "nodes": [
+    {
+      "name": "A",
+      "format": "standard",
+      "id": "0x100",
+      "frameType": "data",
+      "dlc": 1,
+      "data": ["11"]
+    },
+    {
+      "name": "B",
+      "format": "standard",
+      "id": "0x100",
+      "frameType": "data",
+      "dlc": 2,
+      "data": ["11", "22"]
+    }
+  ]
+}
