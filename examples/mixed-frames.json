@@ -1,0 +1,8 @@
+{
+  "name": "mixed-demo",
+  "nodes": [
+    { "name": "std-data", "format": "standard", "id": "0x123", "frameType": "data", "dlc": 2, "data": "AA55" },
+    { "name": "std-remote", "format": "standard", "id": "0x123", "frameType": "remote", "dlc": 2 },
+    { "name": "ext-data", "format": "extended", "id": "0x048C0000", "frameType": "data", "dlc": 1, "data": "01" }
+  ]
+}

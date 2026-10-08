@@ -1,0 +1,19 @@
+{
+  "name": "can-arbitration-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "离线 CAN 标准/扩展帧逐位仲裁与同标识冲突核验后端（API + CLI）",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "cli": "node dist/cli.js",
+    "test": "tsc -p tsconfig.test.json && node --test \"dist-test/test/*.test.js\"",
+    "demo": "node dist/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^5.5.0"
+  }
+}

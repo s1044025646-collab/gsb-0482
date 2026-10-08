@@ -1,0 +1,7 @@
+{
+  "name": "same-payload",
+  "nodes": [
+    { "name": "node-a", "format": "standard", "id": "0x100", "frameType": "data", "dlc": 2, "data": "0A0B" },
+    { "name": "node-b", "format": "standard", "id": "0x100", "frameType": "data", "dlc": 2, "data": "0A0B" }
+  ]
+}
